@@ -1,0 +1,103 @@
+// Counter 页面样式
+
+.counter {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.counter-display {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem 0;
+  font-size: 1.5rem;
+}
+
+.count-value {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #61dafb;
+  margin-left: 1rem;
+  min-width: 100px;
+}
+
+.counter-controls {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.control-button {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background-color: #61dafb;
+  color: #282c34;
+}
+
+.control-button:hover {
+  background-color: #4fa8cc;
+  transform: translateY(-2px);
+}
+
+.control-button.reset {
+  background-color: #f0f0f0;
+  color: #666;
+}
+
+.control-button.reset:hover {
+  background-color: #e0e0e0;
+}
+
+.counter-advanced {
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.advanced-controls {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.amount-input {
+  width: 100px;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.control-button.advanced {
+  background-color: #4caf50;
+  color: white;
+}
+
+.control-button.advanced:hover {
+  background-color: #45a049;
+}
+
+.counter-info {
+  text-align: left;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  padding: 1.5rem;
+}
+
+.counter-info ul {
+  padding-left: 1.5rem;
+}
+
+.counter-info li {
+  margin-bottom: 0.5rem;
+  line-height: 1.5;
+}

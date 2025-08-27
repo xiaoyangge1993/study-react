@@ -1,0 +1,112 @@
+// ProductList 页面样式
+
+.product-list {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.category-filter {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.filter-button {
+  padding: 0.5rem 1rem;
+  border: 1px solid #ddd;
+  background-color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.filter-button:hover {
+  background-color: #f5f5f5;
+}
+
+.filter-button.active {
+  background-color: #61dafb;
+  color: #282c34;
+  border-color: #61dafb;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.product-card {
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  padding: 1.5rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.product-card h3 {
+  margin-top: 0;
+  color: #282c34;
+}
+
+.price {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #4caf50;
+  margin: 0.5rem 0;
+}
+
+.description {
+  margin: 0.5rem 0;
+  line-height: 1.5;
+}
+
+.category {
+  color: #666;
+  font-size: 0.9rem;
+  margin: 0.5rem 0;
+}
+
+.details-link {
+  display: inline-block;
+  background-color: #61dafb;
+  color: #282c34;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  text-decoration: none;
+  margin-top: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.details-link:hover {
+  background-color: #4fa8cc;
+}
+
+.no-products {
+  text-align: center;
+  padding: 2rem;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+}
+
+.learning-points {
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  padding: 1.5rem;
+}
+
+.learning-points ul {
+  padding-left: 1.5rem;
+  margin-bottom: 0;
+}
+
+.learning-points li {
+  margin-bottom: 0.5rem;
+  line-height: 1.5;
+}
